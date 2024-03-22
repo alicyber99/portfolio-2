@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* html,body{
+    width: 100%;
+    height: 100%;
+} */
+.first{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) ,url(image1.jpg);
+    background-size: cover;
+
+}
+.navbar{
+    width: 100%;
+    height:5vw;
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.one{
+    color: orangered;
+    font-size: 3.5vw;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    gap: 8vw;
+    list-style: none;
+}
+li a{
+    color: white;
+    transition: 0.8s ease-in ;
+}
+li a:hover{
+    color: orangered;
+    cursor: pointer;
+}
+.part input{
+    background-color: transparent;
+    color: white;
+    height: 6vh;
+    width: 15vw;
+    border-color: orangered;
+    border-right: none;
+    float:left;
+    border-top-left-radius: 0.4vw;
+    border-bottom-left-radius: 0.4vw;
+    padding-left: 1vw;
+}
+.part button{
+    background-color: orangered;
+    color: white;
+    font-size: 1.25vw;
+    border-left: none;
+    width: 6vw;
+    height:7vh;
+    border-top-right-radius: 0.4vw;
+    border-bottom-right-radius: 0.4vw;
+    
+
+}
+.part input:hover{
+    border-color: orangered ;
+}
+
+.hero-section{
+    display: flex;
+}
+.hero-sec1{
+    padding: 10vw 8vw 0vw 5vw;
+}
+
+.hero-sec1 h1{
+    color: white;
+    font-size: 3.5vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hero-sec1 .two{
+    color: orangered;
+}
+.hero-sec1 p{
+    padding-top: 0.5vw;
+    color: white;
+}
+.three button{
+    border-color: orangered;
+    margin-top: 2vw;
+    background-color: orangered;
+    width: 9vw;
+    height: 2.5vw;
+    border-top-left-radius: 0.5vw;
+    border-top-right-radius: 0.5vw;
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+    font-size: 1.3vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-style: none;
+    transition: 0.5s ease-in;
+}
+.three button:hover{
+    background-color: white;
+}
+.hero-sec2{
+    margin:8vw 5vw 0vw 20vw;
+    height: 70vh;
+    width: 23vw;
+    background-color: black;
+}
+.four button{
+    margin-top: 1.5vw;
+    margin-left: 3vw;
+    width: 17vw;
+    height: 7vh;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    background-color: white;
+    color: orangered;
+    border-color:white ;
+    border-style: none;
+    font-size: 2vw;
+    font-weight: 550;
+}
+
+form input{
+    border-style: none;
+    background-color: transparent;
+    height: 6vh;
+    width: 16.5vw;
+    font-size: 1.2vw;
+    border-bottom: 1px solid orangered;
+    border-top:none ;
+    border-left: none;
+    border-right: none;
+    margin-top: 2vw;
+    margin-left: 3.5vw;
+    color: white;
+}
+
+.six button{
+    margin-top: 2vw;
+    margin-left: 3vw;
+    width: 17vw;
+    height: 7vh;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+    background-color: orangered;
+    border-color:orangered ;
+    border-style: none;
+    font-size: 2vw;
+    font-weight: 550;
+    transition: 0.5s ease-in;
+}
+.six button:hover{
+    background-color: white;
+}
+.hero-sec2 .para{
+    color: white;
+    margin-left: 5.3vw;
+    margin-top: 1.3vw;
+}
+.para-1 {
+    color: white;
+    margin-left: 8.5vw;
+}
+.para-1 a{
+    color: orangered;
+    text-decoration: none;
+}
+.para-2 {
+    margin-left: 8.5vw;
+    margin-top: 1.2vw;
+}
+.para-2 a{
+    text-decoration: none;
+    color: white;
+}
+.icon-1 i{
+    margin-left: 2.2vw;
+    font-size: 2.4vw;
+    color: white;
+    margin-top: 1.2vw;
+    transition: 0.5s ease-in;
+}
+.icon-2 i{
+    font-size: 2.4vw;
+    color: white;
+    margin-top: 1.2vw;
+    margin-left: 1.7vw;
+    transition: 0.5s ease-in;
+
+}
+.icon-1 i:hover{
+    color: orangered;
+    transform: scale(1.2);
+}
+.icon-2 i:hover{
+    color: orangered;
+    transform: scale(1.2);
+}
+
+@media (max-width:600px) {
+    .first{
+        width: 100%;
+        height: 135vh;
+        /* background-position: center; */
+        background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) ,url(image1.jpg);
+        background-size: cover;
+    }
+    .navbar{
+        width: 100%;
+        height:6vh;
+        /* background-color: green; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    .one{
+        color: orangered;
+        font-size: 4vw;
+        cursor: pointer;
+    }
+    ul{
+        display: flex;
+        gap: 2.5vw;
+        list-style: none;
+    }
+    li a{
+        font-size: 2.2vw;
+        color: white;
+        transition: 0.8s ease-in ;
+    }
+    li a:hover{
+        color: orangered;
+        cursor: pointer;
+    }
+    .part input{
+        background-color: transparent;
+        color: white;
+        height: 3.1vh;
+        width: 15vw;
+        border-color: orangered;
+        border-right: none;
+        float:left;
+        border-top-left-radius: 0.4vw;
+        border-bottom-left-radius: 0.4vw;
+        padding-left: 1vw;
+        font-size: 2vw;
+    }
+    .part button{
+        background-color: orangered;
+        color: white;
+        font-size: 1.25vw;
+        border-left: none;
+        width: 6vw;
+        height:3.5vh;
+        border-top-right-radius: 0.4vw;
+        border-bottom-right-radius: 0.4vw;
+        
+    
+    }
+    .part input:hover{
+        border-color: orangered ;
+    }
+    
+    .hero-section{
+        display: inline-block;
+    } 
+    /* .hero-sec1{
+        padding: 20vw 8vw 0vw 20vw;
+    /* } */
+    
+    .hero-sec1 h1{
+        color: white;
+        font-size: 8vw;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .hero-sec1 .two{
+        color: orangered;
+    }
+    .hero-sec1 p{
+        padding-top: 0.5vw;
+        color: white;
+    }
+    .three button{
+        border-color: orangered;
+        margin-top: 2vw;
+        background-color: orangered;
+        width: 13vw;
+        height: 4vw;
+        border-top-left-radius: 0.5vw;
+        border-top-right-radius: 0.5vw;
+        border-bottom-left-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+        font-size: 2vw;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-style: none;
+        transition: 0.5s ease-in;
+    }
+    .three button:hover{
+        background-color: white;
+        cursor: pointer;
+    }
+    .hero-sec2{
+        margin: 23.5vw;
+        height: 36.5vh;
+        width: 50vw;
+        background-color: black;
+    }
+    .four button{
+        margin-top: 4vw;
+        margin-left: 4.7vw;
+        width: 40vw;
+        height: 4vh;
+        border-top-left-radius: 1.5vw;
+        border-top-right-radius: 1.5vw;
+        border-bottom-left-radius: 1.5vw;
+        border-bottom-right-radius: 1.5vw;
+        background-color: white;
+        color: orangered;
+        border-color:white ;
+        border-style: none;
+        font-size: 4.5vw;
+        font-weight: 550;
+    }
+    
+    form input{
+        border-style: none;
+        background-color: transparent;
+        height: 2vh;
+        width: 34vw;
+        font-size: 2.7vw;
+        border-bottom: 1px solid orangered;
+        /* border-top:none ; */
+        /* border-left: none; */
+        /* border-right: none; */
+        margin-top: 5vw;
+        margin-left: 5.5vw;
+        color: white;
+    }
+    
+    .six button{
+        margin-top: 4.5vw;
+        margin-left: 4.7vw;
+        width: 40vw;
+        height: 4vh;
+        border-top-left-radius: 1.5vw;
+        border-top-right-radius: 1.5vw;
+        border-bottom-left-radius: 1.5vw;
+        border-bottom-right-radius: 1.5vw;
+        background-color: orangered;
+        color: black;
+        /* border-color:white ; */
+        border-style: none;
+        font-size: 5vw;
+        font-weight: 550;
+        transition: 0.5s ease-in;
+    }
+    .six button:hover{
+        background-color: white;
+        cursor: pointer;
+    }
+    .hero-sec2 .para{
+        font-size: 2.9vw;
+        color: white;
+        margin-left: 10.5vw;
+        margin-top: 1.3vw;
+    }
+    .para-1 {
+        font-size: 2.9vw;
+        color: white;
+        margin-left: 16.5vw;
+    }
+    .para-1 a{
+        color: orangered;
+        text-decoration: none;
+    }
+    .para-2 {
+        font-size: 3vw;
+        margin-left: 16.5vw;
+        margin-top: 4vw;
+    }
+    .para-2 a{
+        text-decoration: none;
+        color: white;
+    }
+    .icon-1 i{
+        margin-left: 3vw;
+        font-size: 5.5vw;
+        color: white;
+        margin-top: 6vw;
+        transition: 0.5s ease-in;
+    }
+    .icon-2 i{
+        font-size: 5.5vw;
+        color: white;
+        margin-top: 1.2vw;
+        margin-left: 3.8vw;
+        transition: 0.5s ease-in;
+    
+    }
+    .icon-1 i:hover{
+        color: orangered;
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    .icon-2 i:hover{
+        color: orangered;
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+}
